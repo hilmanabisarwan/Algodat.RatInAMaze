@@ -320,6 +320,7 @@ public class RatInAMaze {
   // run it
   public static void main(String[] args) {
       RatInAMaze maze = new RatInAMaze(20);
+      System.out.println("-------------------------------------WELCOME-------------------------------------");
       maze.solve();
       maze.draw();
   }
